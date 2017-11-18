@@ -1,0 +1,304 @@
+
+ /* Dropdown Button */
+ .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #000066;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+/*.container {
+  position: relative;
+  border: solid 3px #333;
+  outline-right: solid 10px #333;  
+  margin: 15px auto;
+  overflow: hidden;
+  float: left;
+  margin-left: 10px;
+}*/
+/**
+* Mega Menu
+*/
+.megaMenu{
+    background: #3779cb;
+    border-top: 2px solid #094A40;
+    color: white;
+    font-size: 16px;
+    height: 40px;   
+}
+.megaMenu a{
+    cursor: pointer;
+    display: block;
+    outline: none;
+    text-decoration: none;
+}
+.megaMenu li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+}
+.megaMenu ul{
+    margin: 0;
+    padding: 0;
+}
+.megaMenu > ul{
+    margin: auto;
+    position: relative;
+    width: 960px;
+}
+.megaMenu > ul > li{
+    border-left: 2px solid #125297;
+    display: inline-block;
+    float: left;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    zoom: 1;
+    *display: inline;
+}
+.megaMenu > ul > li:first-child{
+    border-left: 2px solid transparent;
+}
+
+.megaMenu > ul > li:hover{      
+    background: #fcf7f8;
+}
+
+.megaMenu > ul > li:hover,
+.megaMenu > ul > li:hover + li{
+    border-left: 2px solid #336519;
+}
+
+.megaMenu > ul > li:hover > a{
+    color: #094a40;
+}
+
+.megaMenu > ul > li:hover > div{
+    display: block;
+    top: auto;
+    white-space: nowrap;
+}
+
+.megaMenu > ul > li > a{
+    color: white;
+    height: 100%;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+.megaMenu > ul > li > a > ins,
+.megaMenu > ul > li > a > span{
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    *display: inline;
+}
+
+.megaMenu > ul > li > a > ins{
+    height: 100%;
+}
+
+.megaMenu > ul > li > div{
+    background: #fcf7f8;
+    border: 2px solid #336519;
+    border-top: 0;
+    display: none;
+    left: -2px;
+    padding: 0;
+    position: absolute;
+    top: auto;
+}
+
+.megaMenu > ul > li > div.left{
+    left: auto;
+    right: -2px;
+}
+
+.megaMenu > ul > li > div > ul{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+    zoom: 1;
+    *display: inline;
+}
+
+.megaMenu > ul > li > div > ul > li{
+    margin: 4px 0;
+    padding: 0;
+    text-indent: 0;
+}
+
+.megaMenu > ul > li > div > ul > li.parent{
+    border-top: 1px dashed #908e8e;
+    margin: 4px 0 0;
+    padding: 4px 0 0;
+}
+
+.megaMenu > ul > li > div > ul > li:first-child{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.megaMenu > ul > li > div > ul > li > a{
+    background: url('bullet_arrowlist-green.gif') no-repeat 0 3px;
+    color: #B25C11;
+    font-size: 11px;
+    height: auto;
+    padding-left: 8px;
+}
+.megaMenu > ul > li > div > ul > li > a:hover{
+    color: #006983 !important;
+}
+
+.megaMenu > ul > li > div > ul > li.parent a{
+    background: none;
+    color: #094a40;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+}
+.megaMenu > ul > li > div > ul > li.parent:first-child a{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.megaMenu > ul > li.fold{
+    background: url('fold.gif') no-repeat;
+    font-size: 0; 
+    display: block;
+    height: 10px;
+    right: 219px;
+    position: absolute;
+    top: -12px;
+    width: 10px;
+}
+
+.megaMenu > ul > li.fold,
+.megaMenu > ul > li.foldOut{ border-left: none !important; }
+
+.megaMenu > ul > li.foldOut > ul{
+    background: #58a618;
+    height: 57px;
+    position: absolute;
+    top: -12px;
+}
+
+.megaMenu > ul > li.foldOut > ul:hover *{ border-color: transparent !important; }
+
+.megaMenu > ul > li.foldOut > ul > li{
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    line-height: 14px;
+    padding: 0 10px;
+    vertical-align: middle;
+    width: 148px;
+    zoom: 1;
+    *display: inline;
+}
+
+.megaMenu > ul > li.foldOut > ul > li:hover{
+    background: #F5F2E7;
+}
+
+.megaMenu > ul > li.foldOut > ul > li:hover a{
+    color: #094a40;
+}   
+
+.megaMenu > ul > li.foldOut > ul > li > a{
+    border-top: 1px solid #ccc;
+    color: white;
+    font-weight: bold;
+    padding: 7px 0;
+}
+
+.megaMenu > ul > li.foldOut > ul > li > a > span{ float: right; }
+.megaMenu > ul > li.foldOut > ul > li:first-child > a{ border: 0; }
+
+
+/* Section */
+.area{
+    width:700px;
+    height: 10em;
+    position: relative;   
+    left: 300px;
+    display: table; 
+    color: black;
+    font-size: 16px;
+    height: 40px;   
+    padding:150px 0;
+    margin-top: 60px;
+    margin-left:15px;
+    margin-bottom:10px;
+}
+
+
+.area > p {
+  /*text-align:center; */
+    margin: 0 auto;
+    padding: 0
+    width: 800px;
+    height: 100px;
+    /*background-color: white;*/
+    border-radius: 3px;
+    vertical-align: middle;
+    display: table-cell;   
+}
+
+.area > img {
+    /*display: inline-block;
+    vertical-align: middle;*/
+    float: right; 
+    margin: 0px 0px 15px 15px;
+}
+
+.area > br {
+    padding: 20px;
+}
+
+
+/* Generic */
