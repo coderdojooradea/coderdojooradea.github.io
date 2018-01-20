@@ -1,111 +1,137 @@
 <html>
-    <head>
-        <title>Coderdojo Oradea</title>
-    </head>
-    <body>
-    <!--StartMenu-->
+<head>
+    <title>Coderdojo Oradea</title>
     <link type="text/css" rel="stylesheet" href="css/style.css" />
-    <div class="megaMenu">
-        <ul>
-            <li>
-                <img src="images/images (1).jpg" width="40" height="40" />
-            </li>
-            <li>
-                <a href="./about_us.html">
-                    <ins></ins>
-                    <span>About Us</span>
-                </a>
-                <div>
-                </div>
-            </li>
-            <li>
-                <a href="https://coderdojo.com/?s=become+a+mentor">
-                    <ins></ins>
-                    <span>Become a mentor!</span>
-                </a>
-            </li>
-            <li>
-                <a href=#>
-                    <ins></ins>
-                    <span>Social Medias</span>
-                </a>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com/CoderDojo/">Facebook</a>
-                            <li>
-                                <a href="https://www.instagram.com/coderdojo/">Instagram</a>
-                                <li>
-                                    <a href="https://twitter.com/CoderDojo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
-                    </ul>
-                </div>
+</head>
+
+<body>
+    <header>
+        <!--StartMenu-->
+        <div class="megaMenu">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="images/logo.jpg" width="50" height="50" /> 
+                        <ins></ins>
+                    </a>       
+                </li>
+                <li>
+                    <a href="about_us.html">
+                        <ins></ins>
+                        <span>Despre noi</span>
+                    </a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="schedule.html">
+                        <ins></ins>
+                        <span>Program</span>
+                    </a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="https://coderdojo.com/?s=become+a+mentor">
+                        <ins></ins>
+                        <span>Fii mentor!</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=#>
+                        <ins></ins>
+                        <span>Social Media</span>
+                    </a>
+                        <div>
+                            <ul>
+                                <li><a href="https://www.facebook.com/CoderDojo/">Facebook</a></li>
+                                <li><a href="https://www.instagram.com/coderdojo/">Instagram</a></li>
+                                <li><a href="https://twitter.com/CoderDojo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+                            </ul>
+                        </div>
                 </li>
                 <li>
                     <a href="https://coderdojo.com/donate/">
                         <ins></ins>
-                        <span>Donate</span>
+                        <span>Doneaza</span>
                     </a>
-                    <div>
-                    </div>
+                    <div></div>
                 </li>
-                
-                    <div>
-                        <a href="schedule.html">
-                            <ins></ins>
-                            <span>Program</span>
-                        </a>
-                    </div>
+                <li>
+                    <a href="album.html">
+                        <ins></ins>
+                        <span>Galerie foto</span>
+                    </a>
                 </li>
-
-
-        </ul>
-    </div>
-    <!--EndMenu-->
-    </head>
-    <body>
-    <p>
-        <div class="aboutcoderdojo" style="width: 1000px; margin:0 auto">
-            <h2>Ce este Coderdojo?</h2>
-            <p>    CoderDojo este un global voluntar-led comunitate de programare gratuit cluburi pentru tinerii intre 7 si 17.
-                Miscarea este o organizatie cu cluburile individuale (denumite "Dojos") actionand independent. O pomana numita
-                Fundatia CoderDojo functioneaza din Dublin si accepta diferitele cluburi prin asigurarea unui site central
-                si alte cateva servicii de suport. Sustinatorii CoderDojo cred ca este o parte a solutiei la abordarea globala
-                de penurie de programatori prin expunerea tinerilor la ICT la o vârsta frageda. Miscarea a vazut o crestere
-                semnificativa de la fondarea. De CoderDojo Fundatie estimari 1,250 Dojos intindeti peste 69 tari, cu o rata
-                de crestere de mai multe noi Dojos in fiecare saptamana.</p>
-            <h2>            Care este Scopul Coderdojo-ului?</h2>
-            <p>     Miscarea de CoderDojo crede ca intelegerea limbaje de programare este din ce in ce mai importante in lumea moderna,
-                e atât mai bine si mai usor pentru a afla aceste abilitati devreme si ca nimeni nu ar fi negat posibilitatea
-                de a face acest lucru. In acest scop, am construit o retea globala de libera, voluntar-led, comunitar pe
-                baza de programare cluburi pentru tineri. Oricine in varsta de sapte la saptesprezece ani pot vizita un Dojo
-                unde pot afla la cod, a construi un site web, creati o aplicatie sau un joc, si explorati tehnologie in neoficiala,
-                creative, si mediului social.</p>
-
-
-            <h2>Ce Facem Noi?</h2>
-            <p>Noi,la Coderdojo Oradea suntem grupati pe patru grupe:</p>
-            <ul>
-                <li>Scratch</li>
-                <li>Web -HTML and Python</li>
-                <li>Unity</li>
-                <li>Robotics</li>
             </ul>
-            <div id="map"></div>
-            <script>
-                function initMap() {
-                    var uluru = { lat: 47.0514711, lng: 21.9431256 };
-                    var map = new google.maps.Map(document.getElementById('map'), {
-                        zoom: 17,
-                        center: uluru
-                    });
-                    var marker = new google.maps.Marker({
-                        position: uluru,
-                        map: map
-                    });
-                }
-            </script>
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJcQGQpewbJmCk5-8ovFObL203Nskgpfc&callback=initMap">
-            </script>
         </div>
+        <!--EndMenu-->
+    </header>
+    <div id="main">
+        <div id ="content">
+            <section>
+                <div class="container">
+                    <div class="aboutcoderdojo" style="width: 1000px; margin:0 auto">
+                        <h2>Ce este CoderDojo?</h2>
+                        <p>CoderDojo este o mișcare internațională, o comunitate globală de cluburi de programare 
+                            non-profit, infiintată din dorința de a le oferi copiilor și tinerilor acces la magia din spatele 
+                            tehnologiei care este tot mai prezentă în aproape tot ceea ce ne inconjoară. La CoderDojo 
+                            copiii invată să programeze, să dezvolte site-uri web, aplicații, programe, jocuri și multe altele. 
+                            Dojo-urile sunt înființate, conduse și mentorate de către voluntari. </p>
+                        <p>Inițiată în iulie 2011, în Irlanda, de către James Whelton, un licean pasionat de
+                            programare, și Bill Liao, un antreprenor, filantrop și investitor vizionar, mișcarea CoderDojo
+                            creează spații și contexte în care tinerii învață gratuit programare într-un mediu informal și
+                            deschis, prin sesiuni regulate, în afara programului școlar.</p>
+                        <p>CoderDojo este o comunitate globală, pe bază de voluntariat, de cluburi individuale de programare  
+                            (denumite "Dojos") pentru tinerii cu vârste între 7 și 17. Mișcarea a avut parte de o evoluție spectaculoasă  
+                            de la fondarea ei, în prezent funcționând 1250 de Dojo-uri în 69 țări, acoperind toate continentele  
+                            (exceptând Antarctica), cu o rată de creștere de 2-3 Dojo-uri noi în fiecare săptămâna, la nivel global. </p>
+                        <h2>Care este Misiunea CoderDojo?</h2>
+                        <p>Mișcarea CoderDojo consideră că înțelegerea și însușirea limbajelor de programare este din ce  
+                            în ce mai importantă în lumea modernă, și încurajează deprinderea acestor abilități de la o vârstă  
+                            cât mai fragedă. Misiunea Coderdojo este de a promova educația tehnologică și de a încuraja invătarea  
+                            și dezvoltarea într-un mediu distractiv, prietenos, sigur, susținut și plăcut. </p>
+                        <h2>Cu ce ne ocupam la CoderDojo. Ce facem Noi.</h2>
+                        <p><b>Noi,</b> la Coderdojo Oradea suntem organizați pe cinci grupe:</p>
+                            <ul>
+                                <li>Scratch</li>
+                                <li>Web Technologies (HTML)</li> 
+                                <li>Algoritmică (Python)</li>
+                                <li>Unity</li>
+                                <li>Robotică</li>
+                            </ul>
+                        <p>În cadrul acestor grupe, copii încep de la vârste de 7-8 ani programarea cu ajutorul limbajului Scratch, 
+                            după care în funcție de preferințe, odată ce stăpînesc noțiunile de programare să aleagă grupele de  
+                            HTML (Web Technologies), Robotică (Arduino și Raspberry Pi), Algoritmică (Python), respectiv grafică  
+                            3D (la grupa de Unity). </p>
+                        <h2>Unde ne găsiți</h2>
+                        <p>Ne desfășurăm activitatea cu grupele în fiecare sâmbătă de la oră 8:30 la 13:30 în Cetatea Oradea,  
+                            corp C, etaj II. 
+                        </p>
+                            <div id="map"></div>
+                                <script>
+                                    function initMap() {
+                                        var uluru = { lat: 47.0514711, lng: 21.9431256 };
+                                        var map = new google.maps.Map(document.getElementById('map'), {
+                                            zoom: 17,
+                                            center: uluru
+                                        });
+                                        var marker = new google.maps.Marker({
+                                            position: uluru,
+                                            map: map
+                                        });
+                                    }
+                                </script>
+                                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJcQGQpewbJmCk5-8ovFObL203Nskgpfc&callback=initMap">
+                                </script>
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div id="copy">
+            &#xa9; Realizat de Andrei Droj și Elisa Erzse 2017 - 2018
+        </div>
+    </footer>
 </body>
 </html>
