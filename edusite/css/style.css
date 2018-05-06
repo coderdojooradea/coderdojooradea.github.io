@@ -560,11 +560,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	display:block;
 	margin-bottom:20px;
 	border-radius:4px;
-	overflow:hidden;
+    overflow:hidden;
 }
 
 .course .course-img > img {
-	width:100%;
+    width: 262px;
+    height: 147px;
 }
 
 .course-img:after {
