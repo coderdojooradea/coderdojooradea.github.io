@@ -755,6 +755,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	background-color:#007bb5;
 }
 
+.footer-social li a.github {
+	background-color:#007bb5;
+}
+
 /*------------------------------------*\
 	Contact Page
 \*------------------------------------*/
